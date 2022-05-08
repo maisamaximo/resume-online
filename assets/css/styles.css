@@ -593,10 +593,6 @@ img {
     padding: 0 1.5rem;
   }
 
-  .generate-pdf:hover {
-    color: var(--text-color-light);
-  }
-
   .generate-pdf {
     display: inline-block !important;
     color: #f2f2f2;
@@ -604,8 +600,11 @@ img {
     top: 2.2rem;
     left: 0;
     font-size: 1.2rem;
-    color: var(--text-color);
     cursor: pointer;
+  }
+
+  .generate-pdf:hover {
+    color: var(--text-color-light);
   }
 
   .change-theme {
