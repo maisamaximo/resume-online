@@ -151,10 +151,14 @@ body.scale-cv {
   margin-top: 0.22rem;
 }
 
+.scale-cv .education__line {
+  height: 110% !important;
+}
+
 .scale-cv .education__line,
 .scale-cv .experience__line {
   width: 1px;
-  height: 110%;
+  height: 106%;
   transform: translate(5px, 0);
 }
 
@@ -430,11 +434,18 @@ img {
   margin-top: 0.25rem;
 }
 
+.education__line {
+  height: 110%;
+}
+
+.experience__line {
+  height: 106%;
+}
+
 .education__line,
 .experience__line {
   display: block;
   width: 2px;
-  height: 110%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -482,7 +493,7 @@ img {
   display: inline-block;
   width: 5px;
   height: 5px;
-  background-color: var(--text-color);
+  background-color: var(--text-color-light);
   border-radius: 50%;
   margin-right: 0.75rem;
 }
