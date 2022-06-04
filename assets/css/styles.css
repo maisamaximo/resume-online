@@ -434,11 +434,18 @@ img {
   margin-top: 0.25rem;
 }
 
+.education__line {
+  height: 110%;
+}
+
+.experience__line {
+  height: 106%;
+}
+
 .education__line,
 .experience__line {
   display: block;
   width: 2px;
-  height: 108%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
